@@ -5,20 +5,25 @@
     gap: 30px;
     text-align: center;
 }
+
 .logo {
     height: 30px;
 }
+
 .main-title {
     font-size: 65px;
     text-transform: uppercase;
 }
+
 .main-description {
     font-size: 22px;
 }
+
 .section-title {
     font-size: 18px;
     text-transform: uppercase;
 }
+
 .section-description {
     font-size: 16px;
 }
@@ -59,10 +64,29 @@ footer.container {
 }
 
 .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* color: rgba(255, 255, 255, 0.75); */
+    color: #fffc;
+}
+.bottom > .logo {
+    margin-bottom: 40px;
+}
+.bottom > .trio {
+    display: flex;
+    gap: 0 20px;
+}
+.bottom a {
+    color: #fff;
 }
 
 @media (max-width: 700px) {
     .main-title {
         font-size: 60px;
+    }
+    .bottom > .trio {
+        flex-direction: column;
     }
 }
