@@ -21,6 +21,7 @@ Design: [Coming soon](https://cdn.discordapp.com/attachments/850245533838868480/
 -   CSS animation
 -   form 
 -   FontAwesome icons
+-   CSS units: vh, vw, vmin, vmax
 
 ## 🧰 Getting Started
 
@@ -44,7 +45,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/borntobeprogrammer/5-coming-soon.git
+    git clone https://github.com/borntobeprogrammer/2-sherlockas.git
     ```
 2. Install NPM packages
     ```sh
