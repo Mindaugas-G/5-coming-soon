@@ -3,7 +3,31 @@
         sans-serif;
     font-style: italic;
 }
+.type {
+    display: grid;
+    width: 90%;
+    padding: 0.5em 0.1em;
+    font-size: 18px;
+    line-height: 1.2em;
+    border: none;
+    border-bottom: 1px solid #fff;
+    justify-content: flex-start;
+    color: #fff;
+}
+.subscribe {
+    background-color: #EA1E63;
+    font-family: initial;
+    margin-top: 20px;
+    padding: 15px 30px 15px;
+    border: none;
+    color: white;
+    font-weight: lighter;
+    font-size: inherit;
 
+}
+.subscribe:hover {
+    cursor: pointer;
+}
 form {
     display: grid;
     grid-template-columns: 1fr 1fr;
