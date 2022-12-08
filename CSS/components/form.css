@@ -3,28 +3,37 @@
         sans-serif;
     font-style: italic;
 }
-.type {
-    display: grid;
+.small-form {
+    display: flex;
     width: 90%;
+}
+.tyn {
+    width: 100%;
     padding: 0.5em 0.1em;
     font-size: 18px;
     line-height: 1.2em;
-    border: none;
-    border-bottom: 1px solid #fff;
     justify-content: flex-start;
     color: #fff;
+}
+.tyn>input {
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+}
+.small-form>.tyn>input::placeholder {
+    color: #fff;
+    font-style: normal;
 }
 .subscribe {
     background-color: #EA1E63;
     font-family: initial;
-    margin-top: 20px;
-    padding: 15px 30px 15px;
+    margin-top: 40px;
+    padding: 15px 35px 15px;
     border: none;
     color: white;
     font-weight: lighter;
     font-size: inherit;
-
 }
+
 .subscribe:hover {
     cursor: pointer;
 }
